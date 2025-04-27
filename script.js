@@ -168,7 +168,7 @@ function readCurrentQuestion(forcedRead = false) {
                 let optionsText = "As opções são: ";
 
                 options.forEach((option, index) => {
-                    if (index > 0) optionsText += ", ";
+                    if (index > 0) optionsText += " ,. ";
                     optionsText += option;
                 });
 
